@@ -1,17 +1,17 @@
 class Brume < Formula
   desc "Brume is a pseudonymisation tool, that allows you to use coherent data and production data with GDPR compliance"
   homepage "https://github.com/brumeorg/Brume"
-  version "2.0"
+  version "2.1"
   license "Apache-2.0"
   on_macos do
     on_arm do
-      url "https://github.com/brumeorg/Brume/releases/download/2.0/brume_2.0_darwin_arm64.tar.gz"
-      sha256 "f2f22c885d5e9580543219927ea598de81977fe001016bd242242cf80040fcb1"
+      url "https://github.com/brumeorg/Brume/releases/download/2.1/brume_2.1_darwin_arm64.tar.gz"
+      sha256 "662181fb0e414ec8f9ec6dc34e8e9a470b9a1ffd0fb653ea1f94d2c3b9475e3d"
     end
   end
   on_linux do
-    url "https://github.com/brumeorg/Brume/releases/download/2.0/brume_2.0_linux_amd64.tar.gz"
-    sha256 "7c3e3bd837aa84fca8df4de0a3a8469073cdf75ee4878bcbb5f941ce7b7991ed"
+    url "https://github.com/brumeorg/Brume/releases/download/2.1/brume_2.1_linux_amd64.tar.gz"
+    sha256 "dc4888b7a763f70df8a57f53e89fcf6ba704960e3f39e74ce91c18e93452f261"
   end
   def install
     bin.install "brume"
